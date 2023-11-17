@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    font: size 18px;
+    margin: 200;
+    padding: 100;
+    text-align: center;
+    background-color:  #DBF9FC;
+    justify-content: center;
+  }
+
+ol,ul { 
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+
+}
+.menu {
+  display: flex;
+  width:50%;
+  justify-content: space-around;
+}
+
+
+
+h1 {
+    color: gray;
+    background-color: skyblue;
+    border: 3px solid skyblue;
+    font: size 18px;
+  }
+
+  
+  p {
+    color: black;
+  }
+
+  #carousel slide {
+    width: 100%;
+    margin: 20px 0; 
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; 
+    border-radius: 50%;
+    padding: 10px;
+    color: skyblue; 
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.contact-section {
+    padding: 3em;
+  }
+  
+  .container-contact {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #000;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #000;
+  }
+  
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: skyblue;
+  }
+  
+
+/* Estilos para pantallas más grandes*/
+@media (min-windth: 768px){
+
+}
+body {
+    font-size:20px;
+}
+h1 {
+font-size: 20px;
+}
+/* Estilos para pantallas mucho más grandes*/
+@media (min-windth: 1200px) {
+
+}
+body {
+    font-size:24px;
+}
+    h1 {
+   font-size: 26px;
+
+  }     
+  
