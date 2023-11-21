@@ -30,6 +30,6 @@ Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras errores, tienes sugerencias o mejoras, no dudes en abrir un problema o enviar un pull request.
 
 Agradecimientos
-Agradezco a BA Multiplica por proporcionar un curso integral que ha permitido desarrollar y aplicar habilidades clave en el desarrollo web.
+Agradezco a BA Multiplica por proporcionar un curso integral que ha permitido desarrollar y aplicar habilidades clave en el desarrollo web y a @gonzaloBouso mi promotor por toda la paciencia y ayuda brindada. 
 
 Espero que este README brinde la información necesaria para entender y utilizar el proyecto. ¡Gracias por tu interés y contribución!
